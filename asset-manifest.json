@@ -1,36 +1,37 @@
 {
   "files": {
-    "main.css": "/dannyvega-studio.github.io/static/css/main.631d7de4.chunk.css",
-    "main.js": "/dannyvega-studio.github.io/static/js/main.42c7c493.chunk.js",
-    "main.js.map": "/dannyvega-studio.github.io/static/js/main.42c7c493.chunk.js.map",
+    "main.css": "/dannyvega-studio.github.io/static/css/main.142e8bfd.chunk.css",
+    "main.js": "/dannyvega-studio.github.io/static/js/main.16062ec3.chunk.js",
+    "main.js.map": "/dannyvega-studio.github.io/static/js/main.16062ec3.chunk.js.map",
     "runtime-main.js": "/dannyvega-studio.github.io/static/js/runtime-main.8c76cce1.js",
     "runtime-main.js.map": "/dannyvega-studio.github.io/static/js/runtime-main.8c76cce1.js.map",
     "static/css/2.040c2062.chunk.css": "/dannyvega-studio.github.io/static/css/2.040c2062.chunk.css",
-    "static/js/2.a7246cc0.chunk.js": "/dannyvega-studio.github.io/static/js/2.a7246cc0.chunk.js",
-    "static/js/2.a7246cc0.chunk.js.map": "/dannyvega-studio.github.io/static/js/2.a7246cc0.chunk.js.map",
+    "static/js/2.da141f0f.chunk.js": "/dannyvega-studio.github.io/static/js/2.da141f0f.chunk.js",
+    "static/js/2.da141f0f.chunk.js.map": "/dannyvega-studio.github.io/static/js/2.da141f0f.chunk.js.map",
     "static/js/3.50d4d630.chunk.js": "/dannyvega-studio.github.io/static/js/3.50d4d630.chunk.js",
     "static/js/3.50d4d630.chunk.js.map": "/dannyvega-studio.github.io/static/js/3.50d4d630.chunk.js.map",
     "index.html": "/dannyvega-studio.github.io/index.html",
     "static/css/2.040c2062.chunk.css.map": "/dannyvega-studio.github.io/static/css/2.040c2062.chunk.css.map",
-    "static/css/main.631d7de4.chunk.css.map": "/dannyvega-studio.github.io/static/css/main.631d7de4.chunk.css.map",
-    "static/js/2.a7246cc0.chunk.js.LICENSE.txt": "/dannyvega-studio.github.io/static/js/2.a7246cc0.chunk.js.LICENSE.txt",
+    "static/css/main.142e8bfd.chunk.css.map": "/dannyvega-studio.github.io/static/css/main.142e8bfd.chunk.css.map",
+    "static/js/2.da141f0f.chunk.js.LICENSE.txt": "/dannyvega-studio.github.io/static/js/2.da141f0f.chunk.js.LICENSE.txt",
     "static/media/3garrafas.8af0bf2b.png": "/dannyvega-studio.github.io/static/media/3garrafas.8af0bf2b.png",
     "static/media/about.67d5cba9.png": "/dannyvega-studio.github.io/static/media/about.67d5cba9.png",
-    "static/media/index.css": "/dannyvega-studio.github.io/static/media/whatsapp.20ab485e.png",
     "static/media/css.1bff7021.png": "/dannyvega-studio.github.io/static/media/css.1bff7021.png",
     "static/media/html.e2ac1947.png": "/dannyvega-studio.github.io/static/media/html.e2ac1947.png",
     "static/media/javascript.bed33060.png": "/dannyvega-studio.github.io/static/media/javascript.bed33060.png",
     "static/media/joseportugal.acff1272.png": "/dannyvega-studio.github.io/static/media/joseportugal.acff1272.png",
+    "static/media/logo.3e84c3e0.png": "/dannyvega-studio.github.io/static/media/logo.3e84c3e0.png",
     "static/media/loreim.b2936418.png": "/dannyvega-studio.github.io/static/media/loreim.b2936418.png",
     "static/media/mongodb.8d5317f2.png": "/dannyvega-studio.github.io/static/media/mongodb.8d5317f2.png",
     "static/media/nodejs.282c17bf.png": "/dannyvega-studio.github.io/static/media/nodejs.282c17bf.png",
-    "static/media/reactjs.afaf514c.png": "/dannyvega-studio.github.io/static/media/reactjs.afaf514c.png"
+    "static/media/reactjs.afaf514c.png": "/dannyvega-studio.github.io/static/media/reactjs.afaf514c.png",
+    "static/media/index.css": "/dannyvega-studio.github.io/static/media/whatsapp.20ab485e.png"
   },
   "entrypoints": [
     "static/js/runtime-main.8c76cce1.js",
     "static/css/2.040c2062.chunk.css",
-    "static/js/2.a7246cc0.chunk.js",
-    "static/css/main.631d7de4.chunk.css",
-    "static/js/main.42c7c493.chunk.js"
+    "static/js/2.da141f0f.chunk.js",
+    "static/css/main.142e8bfd.chunk.css",
+    "static/js/main.16062ec3.chunk.js"
   ]
 }
