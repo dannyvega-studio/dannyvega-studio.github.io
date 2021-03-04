@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/dannyvega-studio.github.io/static/css/main.ec523e53.chunk.css",
-    "main.js": "/dannyvega-studio.github.io/static/js/main.9f65a54f.chunk.js",
-    "main.js.map": "/dannyvega-studio.github.io/static/js/main.9f65a54f.chunk.js.map",
+    "main.js": "/dannyvega-studio.github.io/static/js/main.a3e66602.chunk.js",
+    "main.js.map": "/dannyvega-studio.github.io/static/js/main.a3e66602.chunk.js.map",
     "runtime-main.js": "/dannyvega-studio.github.io/static/js/runtime-main.8dff2b22.js",
     "runtime-main.js.map": "/dannyvega-studio.github.io/static/js/runtime-main.8dff2b22.js.map",
     "static/css/2.040c2062.chunk.css": "/dannyvega-studio.github.io/static/css/2.040c2062.chunk.css",
@@ -39,6 +39,6 @@
     "static/css/2.040c2062.chunk.css",
     "static/js/2.618614a2.chunk.js",
     "static/css/main.ec523e53.chunk.css",
-    "static/js/main.9f65a54f.chunk.js"
+    "static/js/main.a3e66602.chunk.js"
   ]
 }
