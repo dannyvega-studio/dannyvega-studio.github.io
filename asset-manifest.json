@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/dannyvega-studio.github.io/static/css/main.ec523e53.chunk.css",
-    "main.js": "/dannyvega-studio.github.io/static/js/main.a3e66602.chunk.js",
-    "main.js.map": "/dannyvega-studio.github.io/static/js/main.a3e66602.chunk.js.map",
+    "main.js": "/dannyvega-studio.github.io/static/js/main.bfc282fe.chunk.js",
+    "main.js.map": "/dannyvega-studio.github.io/static/js/main.bfc282fe.chunk.js.map",
     "runtime-main.js": "/dannyvega-studio.github.io/static/js/runtime-main.8dff2b22.js",
     "runtime-main.js.map": "/dannyvega-studio.github.io/static/js/runtime-main.8dff2b22.js.map",
     "static/css/2.040c2062.chunk.css": "/dannyvega-studio.github.io/static/css/2.040c2062.chunk.css",
@@ -21,6 +21,7 @@
     "static/media/docker.3c90ee8e.png": "/dannyvega-studio.github.io/static/media/docker.3c90ee8e.png",
     "static/media/index.css": "/dannyvega-studio.github.io/static/media/whatsapp.20ab485e.png",
     "static/media/html.e2ac1947.png": "/dannyvega-studio.github.io/static/media/html.e2ac1947.png",
+    "static/media/hybrick.e50fceb9.png": "/dannyvega-studio.github.io/static/media/hybrick.e50fceb9.png",
     "static/media/javascript.bed33060.png": "/dannyvega-studio.github.io/static/media/javascript.bed33060.png",
     "static/media/joseportugal.acff1272.png": "/dannyvega-studio.github.io/static/media/joseportugal.acff1272.png",
     "static/media/lightsail.e0102769.png": "/dannyvega-studio.github.io/static/media/lightsail.e0102769.png",
@@ -39,6 +40,6 @@
     "static/css/2.040c2062.chunk.css",
     "static/js/2.618614a2.chunk.js",
     "static/css/main.ec523e53.chunk.css",
-    "static/js/main.a3e66602.chunk.js"
+    "static/js/main.bfc282fe.chunk.js"
   ]
 }
