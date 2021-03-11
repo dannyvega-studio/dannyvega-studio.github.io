@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/dannyvega-studio.github.io/static/css/main.ec523e53.chunk.css",
-    "main.js": "/dannyvega-studio.github.io/static/js/main.bfc282fe.chunk.js",
-    "main.js.map": "/dannyvega-studio.github.io/static/js/main.bfc282fe.chunk.js.map",
+    "main.js": "/dannyvega-studio.github.io/static/js/main.ced7bdf8.chunk.js",
+    "main.js.map": "/dannyvega-studio.github.io/static/js/main.ced7bdf8.chunk.js.map",
     "runtime-main.js": "/dannyvega-studio.github.io/static/js/runtime-main.8dff2b22.js",
     "runtime-main.js.map": "/dannyvega-studio.github.io/static/js/runtime-main.8dff2b22.js.map",
     "static/css/2.040c2062.chunk.css": "/dannyvega-studio.github.io/static/css/2.040c2062.chunk.css",
@@ -33,6 +33,7 @@
     "static/media/scrumstudy.fc110aa7.jpg": "/dannyvega-studio.github.io/static/media/scrumstudy.fc110aa7.jpg",
     "static/media/sfc.940b29d8.jpg": "/dannyvega-studio.github.io/static/media/sfc.940b29d8.jpg",
     "static/media/smm.bf48ca96.jpg": "/dannyvega-studio.github.io/static/media/smm.bf48ca96.jpg",
+    "static/media/tailwind.b8270c2b.png": "/dannyvega-studio.github.io/static/media/tailwind.b8270c2b.png",
     "static/media/utn.9ddb9001.png": "/dannyvega-studio.github.io/static/media/utn.9ddb9001.png"
   },
   "entrypoints": [
@@ -40,6 +41,6 @@
     "static/css/2.040c2062.chunk.css",
     "static/js/2.618614a2.chunk.js",
     "static/css/main.ec523e53.chunk.css",
-    "static/js/main.bfc282fe.chunk.js"
+    "static/js/main.ced7bdf8.chunk.js"
   ]
 }
