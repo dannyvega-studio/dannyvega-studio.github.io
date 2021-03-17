@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/dannyvega-studio.github.io/static/css/main.ec523e53.chunk.css",
-    "main.js": "/dannyvega-studio.github.io/static/js/main.ced7bdf8.chunk.js",
-    "main.js.map": "/dannyvega-studio.github.io/static/js/main.ced7bdf8.chunk.js.map",
+    "main.js": "/dannyvega-studio.github.io/static/js/main.ffd3ea61.chunk.js",
+    "main.js.map": "/dannyvega-studio.github.io/static/js/main.ffd3ea61.chunk.js.map",
     "runtime-main.js": "/dannyvega-studio.github.io/static/js/runtime-main.8dff2b22.js",
     "runtime-main.js.map": "/dannyvega-studio.github.io/static/js/runtime-main.8dff2b22.js.map",
     "static/css/2.040c2062.chunk.css": "/dannyvega-studio.github.io/static/css/2.040c2062.chunk.css",
@@ -23,10 +23,9 @@
     "static/media/html.e2ac1947.png": "/dannyvega-studio.github.io/static/media/html.e2ac1947.png",
     "static/media/hybrick.e50fceb9.png": "/dannyvega-studio.github.io/static/media/hybrick.e50fceb9.png",
     "static/media/javascript.bed33060.png": "/dannyvega-studio.github.io/static/media/javascript.bed33060.png",
-    "static/media/joseportugal.acff1272.png": "/dannyvega-studio.github.io/static/media/joseportugal.acff1272.png",
+    "static/media/kuervostore.ba45f9c2.png": "/dannyvega-studio.github.io/static/media/kuervostore.ba45f9c2.png",
     "static/media/lightsail.e0102769.png": "/dannyvega-studio.github.io/static/media/lightsail.e0102769.png",
     "static/media/logo.3e84c3e0.png": "/dannyvega-studio.github.io/static/media/logo.3e84c3e0.png",
-    "static/media/loreim.b2936418.png": "/dannyvega-studio.github.io/static/media/loreim.b2936418.png",
     "static/media/mongodb.8d5317f2.png": "/dannyvega-studio.github.io/static/media/mongodb.8d5317f2.png",
     "static/media/nodejs.282c17bf.png": "/dannyvega-studio.github.io/static/media/nodejs.282c17bf.png",
     "static/media/reactjs.afaf514c.png": "/dannyvega-studio.github.io/static/media/reactjs.afaf514c.png",
@@ -41,6 +40,6 @@
     "static/css/2.040c2062.chunk.css",
     "static/js/2.618614a2.chunk.js",
     "static/css/main.ec523e53.chunk.css",
-    "static/js/main.ced7bdf8.chunk.js"
+    "static/js/main.ffd3ea61.chunk.js"
   ]
 }
