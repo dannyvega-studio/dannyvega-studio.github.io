@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/dannyvega-studio.github.io/static/css/main.ec523e53.chunk.css",
-    "main.js": "/dannyvega-studio.github.io/static/js/main.ffd3ea61.chunk.js",
-    "main.js.map": "/dannyvega-studio.github.io/static/js/main.ffd3ea61.chunk.js.map",
+    "main.js": "/dannyvega-studio.github.io/static/js/main.5a228d5f.chunk.js",
+    "main.js.map": "/dannyvega-studio.github.io/static/js/main.5a228d5f.chunk.js.map",
     "runtime-main.js": "/dannyvega-studio.github.io/static/js/runtime-main.8dff2b22.js",
     "runtime-main.js.map": "/dannyvega-studio.github.io/static/js/runtime-main.8dff2b22.js.map",
     "static/css/2.040c2062.chunk.css": "/dannyvega-studio.github.io/static/css/2.040c2062.chunk.css",
@@ -29,7 +29,6 @@
     "static/media/mongodb.8d5317f2.png": "/dannyvega-studio.github.io/static/media/mongodb.8d5317f2.png",
     "static/media/nodejs.282c17bf.png": "/dannyvega-studio.github.io/static/media/nodejs.282c17bf.png",
     "static/media/reactjs.afaf514c.png": "/dannyvega-studio.github.io/static/media/reactjs.afaf514c.png",
-    "static/media/scrumstudy.fc110aa7.jpg": "/dannyvega-studio.github.io/static/media/scrumstudy.fc110aa7.jpg",
     "static/media/sfc.940b29d8.jpg": "/dannyvega-studio.github.io/static/media/sfc.940b29d8.jpg",
     "static/media/smm.bf48ca96.jpg": "/dannyvega-studio.github.io/static/media/smm.bf48ca96.jpg",
     "static/media/tailwind.b8270c2b.png": "/dannyvega-studio.github.io/static/media/tailwind.b8270c2b.png",
@@ -40,6 +39,6 @@
     "static/css/2.040c2062.chunk.css",
     "static/js/2.618614a2.chunk.js",
     "static/css/main.ec523e53.chunk.css",
-    "static/js/main.ffd3ea61.chunk.js"
+    "static/js/main.5a228d5f.chunk.js"
   ]
 }
