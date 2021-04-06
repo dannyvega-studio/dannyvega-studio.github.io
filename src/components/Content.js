@@ -1,0 +1,22 @@
+import React from 'react';
+import aboutProfile from '../assets/images/about.png';
+import { Container, Row, Col } from 'react-bootstrap';
+
+function Content(props) {
+
+    return(
+        <Container fluid={true}>
+            <Row className="justify-content-center">
+                <Col md={4}>
+                    <img className="about-profile mb-4" alt="timer" src={aboutProfile} />
+                </Col>
+                <Col md={8}>
+                    {props.children}
+                </Col>
+            </Row>
+        </Container>
+    );
+
+}
+
+export default Content;
