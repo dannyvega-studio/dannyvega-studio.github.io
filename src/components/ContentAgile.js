@@ -1,16 +1,17 @@
 import React from 'react';
-import utn from '../assets/images/utn.png';
+import ase from '../assets/images/ase.jpg';
+import amat from '../assets/images/amat.jpg';
 import { Container, Row, Col, Card } from 'react-bootstrap';
 import Zoom from 'react-reveal/Zoom';
 
-function ContentSchool(props) {
+function ContentAgile(props) {
 
     return(
         <Container fluid={true}>
             
             <Row className="justify-content-center mt-4">
                 <Col lg={12}>
-                    <h1 class="about-skill-tittle">My University Degrees</h1>
+                    <h1 class="about-skill-tittle">My Agile Certifications</h1>
                 </Col>
             </Row>
 
@@ -18,14 +19,14 @@ function ContentSchool(props) {
                 
                 <Col md={4} sm={6}>
                     <Zoom>
-                        <Card.Img className="about-skill mb-4" variant="top" alt="UTN" src={utn} />
+                        <Card.Img className="about-skill mb-4" variant="top" alt="ASE" src={ase} />
                         <Card.Body>
-                            <Card.Title>TIC University Superior Technician</Card.Title>
+                            <Card.Title>Agile Scrum Essentials</Card.Title>
                                 <Card.Text>
-                                    8989132
+                                    508585
                                 </Card.Text>
                                 <Card.Text>
-                                    <a href="https://www.buholegal.com/8989132/" target="_blank">View Credential</a>
+                                    <a href="https://techedge.techcanvass.co/Certificate/MTgxMTQtNDc=/Daniel%20EduardoVega%20Ibarra" target="_blank">View Credential</a>
                                 </Card.Text>
                         </Card.Body>
                         <Card.Img />
@@ -34,11 +35,14 @@ function ContentSchool(props) {
 
                 <Col md={4} sm={6}>
                     <Zoom>
-                        <Card.Img className="about-skill mb-4" variant="top" alt="UTN" src={utn} />
+                        <Card.Img className="about-skill mb-4" variant="top" alt="AMAT" src={amat} />
                         <Card.Body>
-                            <Card.Title>TIC Enginer</Card.Title>
+                            <Card.Title>Agile Manual and Automation Testing</Card.Title>
                                 <Card.Text>
-                                    To be continue...
+                                    592356
+                                </Card.Text>
+                                <Card.Text>
+                                    <a href="https://techedge.techcanvass.co/Certificate/MTgxMTQtODE=/Daniel%20EduardoVega%20Ibarra" target="_blank">View Credential</a>
                                 </Card.Text>
                         </Card.Body>
                         <Card.Img />
@@ -53,4 +57,4 @@ function ContentSchool(props) {
 
 }
 
-export default ContentSchool;
+export default ContentAgile;

@@ -9,7 +9,7 @@ function ContentScrum(props) {
     return(
         <Container fluid={true}>
             
-            <Row className="justify-content-center mt-4">
+            <Row className="justify-content-center mt-4 mb-4">
                 <Col lg={12}>
                     <h1 class="about-skill-tittle">My Scrum Certifications</h1>
                 </Col>
@@ -24,6 +24,9 @@ function ContentScrum(props) {
                             <Card.Title>Scrum Fundamentals Certificated</Card.Title>
                                 <Card.Text>
                                     813572
+                                </Card.Text>
+                                <Card.Text>
+                                    <a href="https://www.scrumstudy.com/certification/verify?type=SFC&number=813572" target="_blank">View Credential</a>
                                 </Card.Text>
                         </Card.Body>
                         <Card.Img />

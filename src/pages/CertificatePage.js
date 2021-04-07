@@ -2,6 +2,7 @@ import React from 'react';
 import Hero from '../components/Hero';
 import ContentSchool from '../components/ContentSchool';
 import ContentScrum from '../components/ContentScrum';
+import ContentAgile from '../components/ContentAgile';
 import {Helmet} from "react-helmet";
 
 function CertificatePage(props) {
@@ -20,6 +21,7 @@ function CertificatePage(props) {
             
             <ContentSchool />
             <ContentScrum/>
+            <ContentAgile />
         </div>
     );
 }

@@ -17,7 +17,7 @@ function SkillPage(props) {
                 
                 <p>This are some of my develop skill that I already used in some projects.</p>
 
-                <p>But I always studying and trying new thing so this list will be growing.</p>
+                <p>But always I'm studying and trying new thing so this list will be growing.</p>
             
             <ContentSkillsFrontend />
             <ContentSkillsDB />
