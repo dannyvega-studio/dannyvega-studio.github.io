@@ -1,10 +1,10 @@
 import React from 'react';
-import html from '../assets/images/html.png';
-import css from '../assets/images/css.png';
-import javascript from '../assets/images/javascript.png';
-import nodejs from '../assets/images/nodejs.png';
-import reactjs from '../assets/images/reactjs.png';
-import tailwind from '../assets/images/tailwind.png';
+import html from '../assets/images/skills/html.png';
+import css from '../assets/images/skills/css.png';
+import javascript from '../assets/images/skills/javascript.png';
+import nodejs from '../assets/images/skills/nodejs.png';
+import reactjs from '../assets/images/skills/reactjs.png';
+import tailwind from '../assets/images/skills/tailwind.png';
 import { Container, Row, Col, Card } from 'react-bootstrap';
 import Zoom from 'react-reveal/Zoom';
 
@@ -21,7 +21,7 @@ function ContentSkillsFrontend(props) {
             
             <Row className="justify-content-center mt-4">
                 
-                <Col md={4} sm={6}>
+                <Col md={4} xs={6}>
                     <Zoom>
                         <Card.Img className="about-skill mb-4" variant="top" alt="html" src={html} />
                         <Card.Body>
@@ -31,7 +31,7 @@ function ContentSkillsFrontend(props) {
                     </Zoom>
                 </Col>
                 
-                <Col md={4} sm={6}>
+                <Col md={4} xs={6}>
                     <Zoom>
                         <Card.Img className="about-skill mb-4" variant="top" alt="css" src={css} />
                         <Card.Body>
@@ -41,7 +41,7 @@ function ContentSkillsFrontend(props) {
                     </Zoom>
                 </Col>
 
-                <Col md={4} sm={6}>
+                <Col md={4} xs={6}>
                     <Zoom>
                         <Card.Img className="about-skill mb-4" variant="top" alt="javascript" src={javascript} />
                         <Card.Body>
@@ -51,7 +51,7 @@ function ContentSkillsFrontend(props) {
                     </Zoom>
                 </Col>
                 
-                <Col md={4} sm={6}>
+                <Col md={4} xs={6}>
                     <Zoom>
                         <Card.Img className="about-skill mb-4" variant="top" alt="nodejs" src={nodejs} />
                         <Card.Body>
@@ -61,7 +61,7 @@ function ContentSkillsFrontend(props) {
                     </Zoom>
                 </Col>
 
-                <Col md={4} sm={6}>
+                <Col md={4} xs={6}>
                     <Zoom>
                         <Card.Img className="about-skill mb-4" variant="top" alt="reactjs" src={reactjs} />
                         <Card.Body>
@@ -71,7 +71,7 @@ function ContentSkillsFrontend(props) {
                     </Zoom>
                 </Col>
 
-                <Col md={4} sm={6}>
+                <Col md={4} xs={6}>
                     <Zoom>
                         <Card.Img className="about-skill mb-4" variant="top" alt="tailwind" src={tailwind} />
                         <Card.Body>

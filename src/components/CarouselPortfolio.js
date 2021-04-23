@@ -1,11 +1,11 @@
 import React from 'react';
-import Card from '../components/Card';
-import hybrick from '../assets/images/hybrick.png';
-import garrafas from '../assets/images/3garrafas.png';
-import kuervo from '../assets/images/kuervostore.png';
+import Card from './CardPortfolio';
+import hybrick from '../assets/images/portfolio/hybrick.png';
+import novels from '../assets/images/portfolio/lightnovel.png';
+import kuervo from '../assets/images/portfolio/kuervostore.png';
 import { Container, Row } from 'react-bootstrap';
 
-class Carousel extends React.Component {
+class CarouselPortfolio extends React.Component {
 
     constructor(props) {
         super(props);
@@ -21,10 +21,10 @@ class Carousel extends React.Component {
                 },
                 {
                     id: 1,
-                    title: 'Neveria 3 Garrafas',
-                    subTitle: '¡Saborea tus momentos!',
-                    imgSrc: garrafas,
-                    link: 'https://instagram.com/neveria3garrafas/',
+                    title: 'Light Novels',
+                    subTitle: '¡Sharing my hobby!',
+                    imgSrc: novels,
+                    link: 'https://dannyvega-studio.github.io/light-novel/',
                     selected: false
                 },
                 {
@@ -74,4 +74,4 @@ class Carousel extends React.Component {
     }
 }
 
-export default Carousel;
+export default CarouselPortfolio;

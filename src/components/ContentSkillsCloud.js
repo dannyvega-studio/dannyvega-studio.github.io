@@ -1,7 +1,7 @@
 import React from 'react';
-import lightsail from '../assets/images/lightsail.png';
-import docker from '../assets/images/docker.png';
-import amplify from '../assets/images/amplify.png';
+import lightsail from '../assets/images/skills/lightsail.png';
+import docker from '../assets/images/skills/docker.png';
+import amplify from '../assets/images/skills/amplify.png';
 import { Container, Row, Col, Card } from 'react-bootstrap';
 import Zoom from 'react-reveal/Zoom';
 
@@ -18,7 +18,7 @@ function ContentSkillsCloud(props) {
 
             <Row className="justify-content-center mt-4">
                 
-                <Col md={4} sm={6}>
+                <Col md={4} xs={6}>
                     <Zoom>
                         <Card.Img className="about-skill mb-4" variant="top" alt="docker" src={docker} />
                         <Card.Body>
@@ -28,7 +28,7 @@ function ContentSkillsCloud(props) {
                     </Zoom>
                 </Col>
 
-                <Col md={4} sm={6}>
+                <Col md={4} xs={6}>
                     <Zoom>
                         <Card.Img className="about-skill mb-4" variant="top" alt="lightsail" src={lightsail} />
                         <Card.Body>
@@ -38,7 +38,7 @@ function ContentSkillsCloud(props) {
                     </Zoom>
                 </Col>
 
-                <Col md={4} sm={6}>
+                <Col md={4} xs={6}>
                     <Zoom>
                         <Card.Img className="about-skill mb-4" variant="top" alt="amplify" src={amplify} />
                         <Card.Body>

@@ -1,5 +1,5 @@
 import React from 'react';
-import mongodb from '../assets/images/mongodb.png';
+import mongodb from '../assets/images/skills/mongodb.png';
 import { Container, Row, Col, Card } from 'react-bootstrap';
 import Zoom from 'react-reveal/Zoom';
 
@@ -16,7 +16,7 @@ function ContentSkillsDB(props) {
 
             <Row className="justify-content-center mt-4">
                 
-                <Col md={4} sm={6}>
+                <Col md={4} xs={6}>
                     <Zoom>
                         <Card.Img className="about-skill mb-4" variant="top" alt="mongoDB" src={mongodb} />
                         <Card.Body>

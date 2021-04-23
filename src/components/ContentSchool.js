@@ -1,5 +1,5 @@
 import React from 'react';
-import utn from '../assets/images/utn.png';
+import utn from '../assets/images/certify/utn.png';
 import { Container, Row, Col, Card } from 'react-bootstrap';
 import Zoom from 'react-reveal/Zoom';
 
@@ -16,7 +16,7 @@ function ContentSchool(props) {
 
             <Row className="justify-content-center mt-4">
                 
-                <Col md={4} sm={6}>
+                <Col md={4} xs={6}>
                     <Zoom>
                         <Card.Img className="about-skill mb-4" variant="top" alt="UTN" src={utn} />
                         <Card.Body>
@@ -32,7 +32,7 @@ function ContentSchool(props) {
                     </Zoom>
                 </Col>
 
-                <Col md={4} sm={6}>
+                <Col md={4} xs={6}>
                     <Zoom>
                         <Card.Img className="about-skill mb-4" variant="top" alt="UTN" src={utn} />
                         <Card.Body>

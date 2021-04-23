@@ -1,6 +1,6 @@
 import React from 'react';
-import sfc from '../assets/images/sfc.jpg';
-import smm from '../assets/images/smm.jpg';
+import sfc from '../assets/images/certify/sfc.jpg';
+import smm from '../assets/images/certify/smm.jpg';
 import { Container, Row, Col, Card } from 'react-bootstrap';
 import Zoom from 'react-reveal/Zoom';
 
@@ -17,7 +17,7 @@ function ContentScrum(props) {
 
             <Row className="justify-content-center mt-4">
                 
-                <Col md={4} sm={6}>
+                <Col md={4} xs={6}>
                     <Zoom>
                         <Card.Img className="about-skill mb-4" variant="top" alt="SFC" src={sfc} />
                         <Card.Body>
@@ -33,7 +33,7 @@ function ContentScrum(props) {
                     </Zoom>
                 </Col>
 
-                <Col md={4} sm={6}>
+                <Col md={4} xs={6}>
                     <Zoom>
                         <Card.Img className="about-skill mb-4" variant="top" alt="SMM" src={smm} />
                         <Card.Body>

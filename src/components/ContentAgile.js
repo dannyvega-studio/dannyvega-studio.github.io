@@ -1,6 +1,6 @@
 import React from 'react';
-import ase from '../assets/images/ase.jpg';
-import amat from '../assets/images/amat.jpg';
+import ase from '../assets/images/certify/ase.jpg';
+import amat from '../assets/images/certify/amat.jpg';
 import { Container, Row, Col, Card } from 'react-bootstrap';
 import Zoom from 'react-reveal/Zoom';
 
@@ -17,7 +17,7 @@ function ContentAgile(props) {
 
             <Row className="justify-content-center mt-4">
                 
-                <Col md={4} sm={6}>
+                <Col md={4} xs={6}>
                     <Zoom>
                         <Card.Img className="about-skill mb-4" variant="top" alt="ASE" src={ase} />
                         <Card.Body>
@@ -33,7 +33,7 @@ function ContentAgile(props) {
                     </Zoom>
                 </Col>
 
-                <Col md={4} sm={6}>
+                <Col md={4} xs={6}>
                     <Zoom>
                         <Card.Img className="about-skill mb-4" variant="top" alt="AMAT" src={amat} />
                         <Card.Body>

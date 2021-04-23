@@ -21,7 +21,7 @@ function AboutPage(props) {
 
                 <p>Actually I'm looking for improve my UI and UX skills to became a frontend sr developer and after that a fullstack developer (currently working on some ideas and courses).</p>
 
-                <p>The latest project I participate in, Hybrick, is a site for purchase and sale of real state using Blockchain . You can check it out <a href="https://hybrick.cloudmex.io/" target="_blank">here</a>.</p>
+                <p>The latest project I participate in, Hybrick, is a site for purchase and sale of real state using Blockchain. In this project I had Cloud Manager and Frontend Developer roles. You can check it out <a href="https://hybrick.cloudmex.io/" target="_blank">here</a>.</p>
 
                 <p>When I'm not learning something new, I'm spending time on my hobbies like videogames, trading card games, movies, anime and more. </p>
             </Content>
