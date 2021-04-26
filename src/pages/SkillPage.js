@@ -1,6 +1,7 @@
 import React from 'react';
 import Hero from '../components/Hero';
 import ContentSkillsFrontend from '../components/ContentSkillsFrontend';
+import ContentSkillsBackend from '../components/ContentSkillsBackend';
 import ContentSkillsDB from '../components/ContentSkillsDB';
 import ContentSkillsCloud from '../components/ContentSkillsCloud';
 import {Helmet} from "react-helmet";
@@ -20,6 +21,7 @@ function SkillPage(props) {
                 <p>But always I'm studying and trying new thing so this list will be growing.</p>
             
             <ContentSkillsFrontend />
+            <ContentSkillsBackend />
             <ContentSkillsDB />
             <ContentSkillsCloud />
         </div>
