@@ -11,15 +11,11 @@ function SkillPage(props) {
     return(
         <div>
             <Helmet>
-                <title>Danny Vega || My Skills</title>
+                <title>Daniel Vega || My Skills</title>
             </Helmet>
 
-            <Hero title={props.title} subTitle={props.subTitle} text={props.text} />
+            <Hero title={props.title} className="mb-4" />
                 
-                <p>This are some of my develop skill that I already used in some projects.</p>
-
-                <p>But always I'm studying and trying new thing so this list will be growing.</p>
-            
             <ContentSkillsFrontend />
             <ContentSkillsBackend />
             <ContentSkillsDB />

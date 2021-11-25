@@ -12,7 +12,7 @@ function ContentSkillsCloud(props) {
             
             <Row className="justify-content-center mt-4">
                 <Col lg={12}>
-                    <h1 class="about-skill-tittle">My Cloud Skills</h1>
+                    <h1 class="about-skill-tittle">Cloud</h1>
                 </Col>
             </Row>
 

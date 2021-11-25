@@ -8,9 +8,9 @@ function PortfolioPage(props) {
     return(
         <div class="mb-4">
             <Helmet>
-                <title>Danny Vega || Portfolio</title>
+                <title>Daniel Vega || Portfolio</title>
             </Helmet>
-            <Hero title={props.title} subTitle={props.subTitle} text={props.text} />
+            <Hero title={props.title} />
             <CarouselPortfolio />
         </div>
     );

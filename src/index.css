@@ -15,14 +15,15 @@ footer {
   color: whitesmoke;
   font-weight: bold;
   font-size: 20px;
-  background-color: lightslategray;
+  background-color: black;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 .navbar {
-  background-color: white;
+  color:white;
+  background-color: black;
   font-weight: bold;
   font-family: 'Saira', sans-serif;
 }
@@ -151,6 +152,7 @@ nav a{
 }
 
 .about-skill {
+  margin: auto;
   border-radius: 10px;
   max-width: 200px;
   max-height: 200px;
@@ -188,18 +190,8 @@ nav a{
   border-color: transparent;
 }
 
-.facebook-icon {
-  color: blue;
-  width: 30px;
-  height: 30px;
-  margin-left: 10px;
-}
-.facebook-icon:hover {
-  color: lightsteelblue;
-}
-
 .github-icon {
-  color: black;
+  color: white;
   width: 30px;
   height: 30px;
 }

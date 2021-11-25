@@ -1,6 +1,6 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
-import { FaFacebookSquare, FaGithubSquare, FaLinkedin, FaUser, FaIdCard } from 'react-icons/fa';
+import { FaGithubSquare, FaLinkedin, FaUser, FaIdCard } from 'react-icons/fa';
 import Iframe from 'react-iframe'
 
 function Footer() {
@@ -11,22 +11,19 @@ function Footer() {
                 <Row className="border-top justify-content-between p-3">
 
                     <Col className="p-0 d-flex flex-column justify-content-center mt-3 mb-3" lg={4} md={3}>
-                        <p class="mb-2"><FaUser className="ml-3 mr-3" /> Follow Me: </p>
-                        <p><a href="https://www.facebook.com/Danny.Fantome.Vega/" target="_blank" class="mr-2">
-                            <FaFacebookSquare className="facebook-icon" />
-                        </a> Facebook</p>
-                        <p><a href="https://github.com/dannyvega-studio" target="_blank" class="mr-2">
-                            <FaGithubSquare className="github-icon" />
-                        </a> Github</p>
+                        <p class="mb-4"><FaUser className="ml-3 mr-3" /> Follow Me: </p>
                         <p><a href="https://www.linkedin.com/in/daniel-vega-95347a1ba/" target="_blank" class="mr-2">
                             <FaLinkedin className="linkedin-icon" />
                         </a> Linkedin</p>
+                        <p><a href="https://github.com/Danielvega-studio" target="_blank" class="mr-2">
+                            <FaGithubSquare className="github-icon" />
+                        </a> Github</p>
                     </Col>
 
                     <Col className="p-0 d-flex flex-column justify-content-center mt-3 mb-3" lg={4} md={3}>
                             <p><h4><FaIdCard className="ml-3 mr-3" /> CONTACT ME: </h4></p>
                             <p>Phone: (+52) 311-189-66-80</p>
-                            <p>Mail me! just click right <a href="mailto:dannyvega13579@gmail.com?Subject=Interesado%20en%20sus%20Servicios">HERE</a></p>
+                            <p>Mail me! just click right <a href="mailto:Danielvega13579@gmail.com?Subject=Interesado%20en%20sus%20Servicios">HERE</a></p>
                             
                     </Col>
 

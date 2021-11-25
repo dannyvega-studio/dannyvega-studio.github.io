@@ -2,7 +2,6 @@ import React from 'react';
 import html from '../assets/images/skills/html.png';
 import css from '../assets/images/skills/css.png';
 import javascript from '../assets/images/skills/javascript.png';
-import nodejs from '../assets/images/skills/nodejs.png';
 import reactjs from '../assets/images/skills/reactjs.png';
 import tailwind from '../assets/images/skills/tailwind.png';
 import { Container, Row, Col, Card } from 'react-bootstrap';
@@ -15,7 +14,7 @@ function ContentSkillsFrontend(props) {
             
             <Row className="justify-content-center mt-4">
                 <Col lg={12}>
-                    <h1 class="about-skill-tittle">My Frontend Skills</h1>
+                    <h1 class="about-skill-tittle">Frontend</h1>
                 </Col>
             </Row>
             
@@ -46,16 +45,6 @@ function ContentSkillsFrontend(props) {
                         <Card.Img className="about-skill mb-4" variant="top" alt="javascript" src={javascript} />
                         <Card.Body>
                             <Card.Title>Javascript</Card.Title>
-                        </Card.Body>
-                        <Card.Img />
-                    </Zoom>
-                </Col>
-                
-                <Col md={4} xs={6}>
-                    <Zoom>
-                        <Card.Img className="about-skill mb-4" variant="top" alt="nodejs" src={nodejs} />
-                        <Card.Body>
-                            <Card.Title>Node JS</Card.Title>
                         </Card.Body>
                         <Card.Img />
                     </Zoom>

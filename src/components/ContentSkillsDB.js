@@ -11,7 +11,7 @@ function ContentSkillsDB(props) {
             
             <Row className="justify-content-center mt-4">
                 <Col lg={12}>
-                    <h1 class="about-skill-tittle">My Database Skills</h1>
+                    <h1 class="about-skill-tittle">Database</h1>
                 </Col>
             </Row>
 

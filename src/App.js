@@ -4,10 +4,10 @@ import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import {BrowserRouter as Router, Route, Link } from 'react-router-dom';
 import { Container, Nav, Navbar } from 'react-bootstrap';
-//Componentes//
+//Components//
 import Footer from './components/Footer';
 import WhatsApp from './components/WhatsApp';
-//Paginacion//
+//Pagination//
 import HomePage from './pages/HomePage';
 import AboutPage from './pages/AboutPage';
 import SkillPage from './pages/SkillPage';
@@ -21,7 +21,7 @@ class App extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      title: 'Danny Vega Portfolio',
+      title: 'Daniel Vega Portfolio',
       headerLinks: [
         { title: 'Home', path: '/' },
         { title: 'About', path: '/about' },
@@ -30,28 +30,21 @@ class App extends React.Component {
         { title: 'Certificate', path: '/certificate' }
       ],
       home: {
-        title: 'Danny Vega',
-        subTitle: 'Frontend JR Developer',
+        title: 'Daniel Vega',
+        subTitle: 'Salesforce Developer',
         text: 'Think, Develop and Enjoy!'
       },
       about: {
-        title: 'About Me',
-        subTitle: 'Just me being myself',
+        title: 'About Me'
       },
       portfolio: {
-        title: 'Be Creative',
-        subTitle: 'Projects the make a difference',
-        text: 'Checkout my portfolio projects below'
+        title: 'Checkout my portfolio below'
       },
       skill: {
-        title: 'My Skills',
-        subTitle: 'Always learning something new',
-        text: 'Checkout my enviroments and programming lenguages below'
+        title: 'My Developer Skills'
       },
       certificate: {
-        title: 'I am Certify in',
-        subTitle: 'Being Profesional',
-        text: 'Checkout my certificates and degrees below'
+        title: 'I am Certify in'
       }
     }
   }
@@ -63,9 +56,9 @@ render() {
       <Router>
         <Container className="p-0" fluid={true}>
           
-          <Navbar className="border-bottom navbar-light sticky-top" expand="lg">
+          <Navbar className="border-bottom navbar-dark sticky-top" expand="lg">
             <Navbar.Brand><img src={logo} width="75px" /></Navbar.Brand>
-            <Navbar.Brand>Danny Vega</Navbar.Brand>
+            <Navbar.Brand>Daniel Vega</Navbar.Brand>
 
             <Navbar.Toggle className="border-0" aria-controls="navbar-toggle" />
             <Navbar.Collapse id="navbar-toggle">

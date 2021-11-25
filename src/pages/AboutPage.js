@@ -1,9 +1,7 @@
 import React from 'react';
 import Hero from '../components/Hero';
 import Content from '../components/Content';
-import ContentSkillsFrontend from '../components/ContentSkillsFrontend';
-import ContentSkillsDB from '../components/ContentSkillsDB';
-import ContentSkillsCloud from '../components/ContentSkillsCloud';
+import Zoom from 'react-reveal/Zoom';
 import {Helmet} from "react-helmet";
 
 function AboutPage(props) {
@@ -11,19 +9,21 @@ function AboutPage(props) {
     return(
         <div>
             <Helmet>
-                <title>Danny Vega || About Me</title>
+                <title>Daniel Vega || About Me</title>
             </Helmet>
 
             <Hero title={props.title} subTitle={props.subTitle}/>
 
             <Content>
-                <p>Hello, my name is Danny. I'm a frontend jr developer with experience in Express JS, Node JS, MongoDB, React and more.</p>
-
-                <p>Actually I'm looking for improve my UI and UX skills to became a frontend sr developer and after that a fullstack developer (currently working on some ideas and courses).</p>
-
-                <p>The latest project I participate in, Hybrick, is a site for purchase and sale of real state using Blockchain. In this project I had Cloud Manager and Frontend Developer roles. You can check it out <a href="https://hybrick.cloudmex.io/" target="_blank">here</a>.</p>
-
-                <p>When I'm not learning something new, I'm spending time on my hobbies like videogames, trading card games, movies, anime and more. </p>
+                <Zoom>
+                    <p>Hello there, has you can see my name is Daniel and I'm an software engineer graduated from the Universidad Tecnologica de Nayarit on 2021, actually it was a good challenge because the last semesters we change from pressential classes to virtual classes (because Covid and that stuff), I think this kinda help me to understand how it will be working on this industry, you know with people from all the world in real time using online platforms, also this gave me motivation to study about SCRUM to improve my knowledge.</p>
+                </Zoom>
+                <Zoom>
+                    <p>The latest project I participate in, Montblanc website, is an ecommerce web site builded with Salesforce Commerce Cloud, you can check it if you want clicking <a href="https://www.montblanc.com/en-ae" target="_blank">HERE</a>. For this project I realized frontend and backend stuff, since simple UI issues until create events and some features.</p>
+                </Zoom>
+                <Zoom>
+                    <p>Actualy I'm still learning day by day new ways to improve the way I code, learning from other members of the development team and also from the Tech Leads, I mean there is always something new to learn from other persons. </p>
+                </Zoom>
             </Content>
         </div>
     );

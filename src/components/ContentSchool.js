@@ -2,6 +2,7 @@ import React from 'react';
 import utn from '../assets/images/certify/utn.png';
 import { Container, Row, Col, Card } from 'react-bootstrap';
 import Zoom from 'react-reveal/Zoom';
+import ModalImage from "react-modal-image";
 
 function ContentSchool(props) {
 
@@ -10,22 +11,19 @@ function ContentSchool(props) {
             
             <Row className="justify-content-center mt-4">
                 <Col lg={12}>
-                    <h1 class="about-skill-tittle">My University Degrees</h1>
+                    <h1 class="about-skill-tittle">University Degrees</h1>
                 </Col>
             </Row>
 
             <Row className="justify-content-center mt-4">
                 
                 <Col md={4} xs={6}>
+                    <div className="about-skill mb-4"><ModalImage  variant="top" small={utn} large={utn} alt="TIC University Superior Technician" /></div>
                     <Zoom>
-                        <Card.Img className="about-skill mb-4" variant="top" alt="UTN" src={utn} />
                         <Card.Body>
                             <Card.Title>TIC University Superior Technician</Card.Title>
                                 <Card.Text>
-                                    8989132
-                                </Card.Text>
-                                <Card.Text>
-                                    <a href="https://www.buholegal.com/8989132/" target="_blank">View Credential</a>
+                                    <a href="https://www.buholegal.com/8989132/" target="_blank">Credential 8989132</a>
                                 </Card.Text>
                         </Card.Body>
                         <Card.Img />
@@ -33,12 +31,12 @@ function ContentSchool(props) {
                 </Col>
 
                 <Col md={4} xs={6}>
+                    <div className="about-skill mb-4"><ModalImage  variant="top" small={utn} large={utn} alt="TIC Software Enginer" /></div>
                     <Zoom>
-                        <Card.Img className="about-skill mb-4" variant="top" alt="UTN" src={utn} />
                         <Card.Body>
-                            <Card.Title>TIC Enginer</Card.Title>
+                            <Card.Title>TIC Software Enginer</Card.Title>
                                 <Card.Text>
-                                    To be continue...
+                                    DIPLOMA
                                 </Card.Text>
                         </Card.Body>
                         <Card.Img />

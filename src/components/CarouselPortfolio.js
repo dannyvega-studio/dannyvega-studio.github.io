@@ -1,8 +1,8 @@
 import React from 'react';
 import Card from './CardPortfolio';
+import montblanc from '../assets/images/portfolio/montblanc.png';
 import hybrick from '../assets/images/portfolio/hybrick.png';
 import novels from '../assets/images/portfolio/lightnovel.png';
-import kuervo from '../assets/images/portfolio/kuervostore.png';
 import { Container, Row } from 'react-bootstrap';
 
 class CarouselPortfolio extends React.Component {
@@ -13,26 +13,32 @@ class CarouselPortfolio extends React.Component {
             items: [
                 {
                     id: 0,
+                    title: 'Montblanc',
+                    subTitle: 'Montblanc Arab Ecommerce',
+                    role: 'Role: Salesforce Developer',
+                    environment: 'Environment: Salesforce',
+                    imgSrc: montblanc,
+                    link: 'https://www.montblanc.com/en-ae',
+                    selected: false
+                },
+                {
+                    id: 1,
                     title: 'Hybrick',
                     subTitle: 'Real State Trade by Cryptocurrency',
+                    role: 'Role: Cloud Developer JR',
+                    environment: 'Environment: Amazon Web Services',
                     imgSrc: hybrick,
                     link: 'https://hybrick.cloudmex.io/',
                     selected: false
                 },
                 {
-                    id: 1,
+                    id: 2,
                     title: 'Light Novels',
                     subTitle: '¡Sharing my hobby!',
+                    role: 'Role: Web Developer',
+                    environment: 'Environment: React',
                     imgSrc: novels,
                     link: 'https://dannyvega-studio.github.io/light-novel/',
-                    selected: false
-                },
-                {
-                    id: 2,
-                    title: 'Kuervo Store',
-                    subTitle: 'From Japan to the World!',
-                    imgSrc: kuervo,
-                    link: 'https://dannyvega-studio.github.io/kuervostore/',
                     selected: false
                 },
             ]

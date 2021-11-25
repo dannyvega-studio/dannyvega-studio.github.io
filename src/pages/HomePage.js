@@ -7,7 +7,7 @@ function HomePage(props) {
     return(
         <div>
             <Helmet>
-                <title>Danny Vega || Home Page</title>
+                <title>Daniel Vega || Home Page</title>
             </Helmet>
             <section id="hero" class="hero">
                 <div class="hero-contenido">
