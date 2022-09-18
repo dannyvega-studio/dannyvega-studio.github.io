@@ -2,7 +2,8 @@ import React from 'react';
 import Card from './CardPortfolio';
 import montblanc from '../assets/images/portfolio/montblanc.png';
 import hybrick from '../assets/images/portfolio/hybrick.png';
-import novels from '../assets/images/portfolio/lightnovel.png';
+import cartier from '../assets/images/portfolio/cartier.png';
+import thebay from '../assets/images/portfolio/thebay.png';
 import { Container, Row } from 'react-bootstrap';
 
 class CarouselPortfolio extends React.Component {
@@ -13,32 +14,40 @@ class CarouselPortfolio extends React.Component {
             items: [
                 {
                     id: 0,
-                    title: 'Montblanc',
-                    subTitle: 'Montblanc Arab Ecommerce',
-                    role: 'Role: Salesforce Developer',
+                    title: 'The Bay',
+                    role: 'Role: B2C Salesforce Developer',
+                    environment: 'Environment: Salesforce',
+                    imgSrc: thebay,
+                    link: 'https://www.thebay.com/',
+                    selected: false
+                },
+                {
+                    id: 1,
+                    title: 'Cartier KO',
+                    role: 'Role: B2C Salesforce Developer',
+                    environment: 'Environment: Salesforce',
+                    imgSrc: cartier,
+                    link: 'https://www.cartier.com/ko-kr/home',
+                    selected: false
+                },
+                {
+                    id: 2,
+                    title: 'Montblanc AE',
+                    subTitle: 'Creating new heights',
+                    role: 'Role: B2C Salesforce Developer',
                     environment: 'Environment: Salesforce',
                     imgSrc: montblanc,
                     link: 'https://www.montblanc.com/en-ae',
                     selected: false
                 },
                 {
-                    id: 1,
+                    id: 3,
                     title: 'Hybrick',
                     subTitle: 'Real State Trade by Cryptocurrency',
                     role: 'Role: Cloud Developer JR',
                     environment: 'Environment: Amazon Web Services',
                     imgSrc: hybrick,
                     link: 'https://hybrick.cloudmex.io/',
-                    selected: false
-                },
-                {
-                    id: 2,
-                    title: 'Light Novels',
-                    subTitle: '¡Sharing my hobby!',
-                    role: 'Role: Web Developer',
-                    environment: 'Environment: React',
-                    imgSrc: novels,
-                    link: 'https://dannyvega-studio.github.io/light-novel/',
                     selected: false
                 },
             ]
