@@ -24,7 +24,7 @@ function ContentScrum(props) {
                         <Card.Body>
                             <Card.Title>Scrum Fundamentals Certificated</Card.Title>
                                 <Card.Text>
-                                    <a href="https://www.scrumstudy.com/certification/verify?type=SFC&number=813572" target="_blank">Credential 813572</a>
+                                    <a href="https://www.scrumstudy.com/certification/verify?type=SFC&number=813572" target="_blank" rel="noreferrer">Credential 813572</a>
                                 </Card.Text>
                         </Card.Body>
                         <Card.Img />

@@ -23,7 +23,7 @@ function ContentSalesforce(props) {
                         <Card.Body>
                             <Card.Title>B2C Commerce Developer Certificated</Card.Title>
                                 <Card.Text>
-                                    <a href="https://sforce.co/verifycerts" target="_blank">Credential 22529413</a>
+                                    <a href="https://sforce.co/verifycerts" target="_blank" rel="noreferrer">Credential 22529413</a>
                                 </Card.Text>
                         </Card.Body>
                         <Card.Img />

@@ -57,7 +57,7 @@ render() {
         <Container className="p-0" fluid={true}>
           
           <Navbar className="border-bottom navbar-dark sticky-top" expand="lg">
-            <Navbar.Brand><img src={logo} width="75px" /></Navbar.Brand>
+            <Navbar.Brand><img src={logo} alt="Danny Vega" width="75px" /></Navbar.Brand>
             <Navbar.Brand>Daniel Vega</Navbar.Brand>
 
             <Navbar.Toggle className="border-0" aria-controls="navbar-toggle" />
