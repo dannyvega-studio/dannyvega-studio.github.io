@@ -18,8 +18,8 @@ function SkillPage(props) {
                 
             <ContentSkillsFrontend />
             <ContentSkillsBackend />
-            <ContentSkillsDB />
             <ContentSkillsCloud />
+            <ContentSkillsDB />
         </div>
     );
 }

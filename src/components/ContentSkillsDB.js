@@ -17,21 +17,21 @@ function ContentSkillsDB(props) {
 
             <Row className="justify-content-center mt-4">
                 
-                <Col md={4} xs={6}>
+                <Col md={3} sm={4} xs={6}>
                     <Zoom>
                         <Card.Img className="about-skill mb-4" variant="top" alt="mongoDB" src={mongodb} />
                         <Card.Body>
-                            <Card.Title>MongoDB</Card.Title>
+                            <a href="https://www.mongodb.com/en/what-is-mongodb" target="_blank" rel="noreferrer" class="about-link"><Card.Title>MongoDB</Card.Title></a>
                         </Card.Body>
                         <Card.Img />
                     </Zoom>
                 </Col>
 
-                <Col md={4} xs={6}>
+                <Col md={3} sm={4} xs={6}>
                     <Zoom>
                         <Card.Img className="about-skill mb-4" variant="top" alt="MySQL" src={mysql} />
                         <Card.Body>
-                            <Card.Title>MySQL</Card.Title>
+                            <a href="https://www.oracle.com/mysql/what-is-mysql/" target="_blank" rel="noreferrer" class="about-link"><Card.Title>MySQL</Card.Title></a>
                         </Card.Body>
                         <Card.Img />
                     </Zoom>

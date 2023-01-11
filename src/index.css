@@ -144,6 +144,32 @@ nav a{
   margin: 0px;
 }
 
+.g-card-link {
+  background-color: whitesmoke;
+  border: 2px solid lightcoral; 
+  padding: 3px 20px;
+  text-align: center;
+  border-radius: 12px;
+  font-weight: bold;
+  margin-top: 10px;
+  min-height: 100px;
+  color: red;
+}
+.g-card-link:hover {
+  color: gray;
+  border: 2px solid gray;
+  text-decoration: none;
+}
+
+.about-link {
+  font-weight: bold;
+  color: black;
+}
+.about-link:hover {
+  color: gray;
+  text-decoration: none;
+}
+
 .about-profile {
   border-radius: 10px;
   width: 280px;
@@ -190,6 +216,22 @@ nav a{
   border-color: transparent;
 }
 
+.contact-link {
+  color: white;
+}
+.contact-link:hover {
+  color: gray;
+  text-decoration: none;
+}
+
+.contact-mail {
+  color: red;
+}
+.contact-mail:hover {
+  color: gray;
+  text-decoration: none;
+}
+
 .github-icon {
   color: white;
   width: 30px;
@@ -206,4 +248,13 @@ nav a{
 }
 .linkedin-icon:hover {
   color: lightsteelblue;
+}
+
+.salesforce-icon {
+  color: rgb(56, 138, 245);
+  width: 30px;
+  height: 30px;
+}
+.salesforce-icon:hover {
+  color: rgb(115, 172, 246);
 }

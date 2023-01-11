@@ -1,62 +1,82 @@
 import React from 'react';
 import Card from './CardPortfolio';
-import montblanc from '../assets/images/portfolio/montblanc.png';
 import hybrick from '../assets/images/portfolio/hybrick.png';
+import montblanc from '../assets/images/portfolio/montblanc.png';
+import converse from '../assets/images/portfolio/converse.png';
 import cartier from '../assets/images/portfolio/cartier.png';
+import honey from '../assets/images/portfolio/honey.png';
 import thebay from '../assets/images/portfolio/thebay.png';
 import theref from '../assets/images/portfolio/ref.png';
 import { Container, Row } from 'react-bootstrap';
 
 class CarouselPortfolio extends React.Component {
-
     constructor(props) {
+
         super(props);
         this.state = {
             items: [
                 {
                     id: 0,
-                    title: 'The Reformation',
-                    role: 'Role: B2C Salesforce Developer',
-                    environment: 'Environment: Salesforce',
                     imgSrc: theref,
+                    title: 'The Reformation',
+                    role1: 'Role: B2C Salesforce Developer',
+                    environment: 'Environment: Salesforce SFRA',
                     link: 'https://www.thereformation.com/',
                     selected: false
                 },
                 {
                     id: 1,
-                    title: 'The Bay',
-                    role: 'Role: B2C Salesforce Developer',
-                    environment: 'Environment: Salesforce',
                     imgSrc: thebay,
+                    title: 'The Bay',
+                    role1: 'Role: B2C Salesforce Developer',
+                    environment: 'Environment: Salesforce SFRA',
                     link: 'https://www.thebay.com/',
                     selected: false
                 },
                 {
                     id: 2,
-                    title: 'Cartier KO',
-                    role: 'Role: B2C Salesforce Developer',
-                    environment: 'Environment: Salesforce',
-                    imgSrc: cartier,
-                    link: 'https://www.cartier.com/ko-kr/home',
+                    imgSrc: honey,
+                    title: 'Honey Birdette',
+                    role1: 'Role: B2C Salesforce Developer',
+                    environment: 'Main Environment: Salesforce SFRA',
+                    environment2: 'Secondary Environment: SFCC Administrator',
+                    link: 'https://us.honeybirdette.com/',
                     selected: false
                 },
                 {
                     id: 3,
-                    title: 'Montblanc AE',
-                    subTitle: 'Creating new heights',
-                    role: 'Role: B2C Salesforce Developer',
-                    environment: 'Environment: Salesforce',
-                    imgSrc: montblanc,
-                    link: 'https://www.montblanc.com/en-ae',
+                    imgSrc: cartier,
+                    title: 'Cartier KO',
+                    role1: 'Role: B2C Salesforce Developer',
+                    environment: 'Environment: Salesforce SFRA',
+                    link: 'https://www.cartier.com/ko-kr/home',
                     selected: false
                 },
                 {
                     id: 4,
-                    title: 'Hybrick',
-                    subTitle: 'Real State Trade by Cryptocurrency',
-                    role: 'Role: Cloud Developer JR',
-                    environment: 'Environment: Amazon Web Services',
+                    imgSrc: converse,
+                    title: 'Converse CA',
+                    role1: 'Role: B2C Salesforce Developer',
+                    environment: 'Environment: Salesforce SFRA',
+                    link: 'https://converse.ca/',
+                    selected: false
+                },
+                {
+                    id: 5,
+                    imgSrc: montblanc,
+                    title: 'Montblanc AE',
+                    role1: 'Role: B2C Salesforce Developer',
+                    environment: 'Environment: Salesforce SFRA',
+                    link: 'https://www.montblanc.com/en-ae',
+                    selected: false
+                },
+                {
+                    id: 6,
                     imgSrc: hybrick,
+                    title: 'Hybrick',
+                    role1: 'Main Role: Cloud Developer JR',
+                    role2: 'Secondary Role: Blockchain Developer JR',
+                    environment: 'Environment: Amazon Web Services',
                     link: 'https://hybrick.cloudmex.io/',
                     selected: false
                 },

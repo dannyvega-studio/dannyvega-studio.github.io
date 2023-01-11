@@ -24,7 +24,7 @@ function ContentAgile(props) {
                         <Card.Body>
                             <Card.Title>Agile Scrum Essentials</Card.Title>
                                 <Card.Text>
-                                    <a href="https://techedge.techcanvass.co/Certificate/MTgxMTQtNDc=/Daniel%20EduardoVega%20Ibarra" target="_blank" rel="noreferrer">Credential 508585</a>
+                                    <a href="https://techedge.techcanvass.co/Certificate/MTgxMTQtNDc=/Daniel%20EduardoVega%20Ibarra" target="_blank" rel="noreferrer" class="about-link">Credential 508585</a>
                                 </Card.Text>
                         </Card.Body>
                         <Card.Img />
@@ -37,7 +37,7 @@ function ContentAgile(props) {
                         <Card.Body>
                             <Card.Title>Agile Manual and Automation Testing</Card.Title>
                                 <Card.Text>
-                                    <a href="https://techedge.techcanvass.co/Certificate/MTgxMTQtODE=/Daniel%20EduardoVega%20Ibarra" target="_blank" rel="noreferrer">Credential 592356</a>
+                                    <a href="https://techedge.techcanvass.co/Certificate/MTgxMTQtODE=/Daniel%20EduardoVega%20Ibarra" target="_blank" rel="noreferrer" class="about-link">Credential 592356</a>
                                 </Card.Text>
                         </Card.Body>
                         <Card.Img />

@@ -31,17 +31,17 @@ class App extends React.Component {
       ],
       home: {
         title: 'Daniel Vega',
-        subTitle: 'Salesforce Developer',
+        subTitle: 'B2C Salesforce Developer',
         text: 'Think, Develop and Enjoy!'
       },
       about: {
         title: 'About Me'
       },
       portfolio: {
-        title: 'Checkout my portfolio below'
+        title: 'Checkout my Portfolio below'
       },
       skill: {
-        title: 'My Developer Skills'
+        title: 'Look at my Skills'
       },
       certificate: {
         title: 'I am Certify in'

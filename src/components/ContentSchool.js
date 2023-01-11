@@ -23,7 +23,7 @@ function ContentSchool(props) {
                         <Card.Body>
                             <Card.Title>TIC University Superior Technician</Card.Title>
                                 <Card.Text>
-                                    <a href="https://www.buholegal.com/8989132/" target="_blank" rel="noreferrer">Credential 8989132</a>
+                                    <a href="https://www.buholegal.com/8989132/" target="_blank" rel="noreferrer" class="about-link">Credential 8989132</a>
                                 </Card.Text>
                         </Card.Body>
                         <Card.Img />
