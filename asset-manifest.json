@@ -1,9 +1,11 @@
 {
   "files": {
-    "main.css": "/static/css/main.f5a302d0.css",
-    "main.js": "/static/js/main.9e578281.js",
+    "main.css": "/static/css/main.017a240a.css",
+    "main.js": "/static/js/main.54633c60.js",
     "static/js/787.7b532c7d.chunk.js": "/static/js/787.7b532c7d.chunk.js",
     "static/media/thebay.png": "/static/media/thebay.f7d190da1045fcfe62f1.png",
+    "static/media/honey.png": "/static/media/honey.ab170310b34137753142.png",
+    "static/media/converse.png": "/static/media/converse.0372cecaf6888d255cf6.png",
     "static/media/ref.png": "/static/media/ref.9ee1a5481e41475c5d68.png",
     "static/media/about.png": "/static/media/about.67d5cba93c6229cc94ee.png",
     "static/media/hero-1.jpg": "/static/media/hero-1.b9b27116497bc48d4b08.jpg",
@@ -25,6 +27,7 @@
     "static/media/reactjs.png": "/static/media/reactjs.afaf514cc1d9bc83dd80.png",
     "static/media/utn.png": "/static/media/utn.9ddb9001b0f3efeea59b.png",
     "static/media/javascript.png": "/static/media/javascript.bed33060de13608b1674.png",
+    "static/media/sass.png": "/static/media/sass.983dfd953eebd562968c.png",
     "static/media/logo.png": "/static/media/logo.3e84c3e03b42fa295179.png",
     "static/media/css.png": "/static/media/css.1bff7021cd6201bdc452.png",
     "static/media/php.png": "/static/media/php.c67d24b47808dc6611ed.png",
@@ -33,12 +36,12 @@
     "static/media/nodejs.png": "/static/media/nodejs.282c17bfe713353a4795.png",
     "static/media/lightsail.png": "/static/media/lightsail.e01027696251476d47ae.png",
     "index.html": "/index.html",
-    "main.f5a302d0.css.map": "/static/css/main.f5a302d0.css.map",
-    "main.9e578281.js.map": "/static/js/main.9e578281.js.map",
+    "main.017a240a.css.map": "/static/css/main.017a240a.css.map",
+    "main.54633c60.js.map": "/static/js/main.54633c60.js.map",
     "787.7b532c7d.chunk.js.map": "/static/js/787.7b532c7d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f5a302d0.css",
-    "static/js/main.9e578281.js"
+    "static/css/main.017a240a.css",
+    "static/js/main.54633c60.js"
   ]
 }
