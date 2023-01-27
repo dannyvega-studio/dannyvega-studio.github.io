@@ -144,6 +144,15 @@ nav a{
   margin: 0px;
 }
 
+.g-card-sub-description {
+  max-width: 300px;
+  font-size: 16px;
+  margin: 0px;
+  text-align: center;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
 .g-card-link {
   background-color: whitesmoke;
   border: 2px solid lightcoral; 

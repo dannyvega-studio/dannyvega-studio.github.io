@@ -15,7 +15,7 @@ function CardPortfolio(props) {
                                 role2={props.item.role2}
                                 environment={props.item.environment} 
                                 environment2={props.item.environment2} 
-                                body={props.item.body} 
+                                description={props.item.description} 
                                 link={props.item.link} /> 
             }
         </div>
