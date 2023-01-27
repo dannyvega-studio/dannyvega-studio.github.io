@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.017a240a.css",
-    "main.js": "/static/js/main.54633c60.js",
+    "main.css": "/static/css/main.93d26b17.css",
+    "main.js": "/static/js/main.a7c6ea7d.js",
     "static/js/787.7b532c7d.chunk.js": "/static/js/787.7b532c7d.chunk.js",
     "static/media/thebay.png": "/static/media/thebay.f7d190da1045fcfe62f1.png",
     "static/media/honey.png": "/static/media/honey.ab170310b34137753142.png",
@@ -15,6 +15,7 @@
     "static/media/hybrick.png": "/static/media/hybrick.e50fceb9fe69fb817c70.png",
     "static/media/amat.jpg": "/static/media/amat.d787d7e7bc9ac1d47fdc.jpg",
     "static/media/ase.jpg": "/static/media/ase.6df1a73b63cc363626d3.jpg",
+    "static/media/delta.png": "/static/media/delta.8ad38bc489323aa17bb4.png",
     "static/media/cartier.png": "/static/media/cartier.eeb812a14f4b25b01099.png",
     "static/media/sfc.jpg": "/static/media/sfc.940b29d88b0ec9f2d249.jpg",
     "static/media/mysql.png": "/static/media/mysql.a963344df3d6968eecab.png",
@@ -36,12 +37,12 @@
     "static/media/nodejs.png": "/static/media/nodejs.282c17bfe713353a4795.png",
     "static/media/lightsail.png": "/static/media/lightsail.e01027696251476d47ae.png",
     "index.html": "/index.html",
-    "main.017a240a.css.map": "/static/css/main.017a240a.css.map",
-    "main.54633c60.js.map": "/static/js/main.54633c60.js.map",
+    "main.93d26b17.css.map": "/static/css/main.93d26b17.css.map",
+    "main.a7c6ea7d.js.map": "/static/js/main.a7c6ea7d.js.map",
     "787.7b532c7d.chunk.js.map": "/static/js/787.7b532c7d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.017a240a.css",
-    "static/js/main.54633c60.js"
+    "static/css/main.93d26b17.css",
+    "static/js/main.a7c6ea7d.js"
   ]
 }
